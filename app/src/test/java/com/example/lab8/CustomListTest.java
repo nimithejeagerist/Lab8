@@ -20,6 +20,7 @@ public class CustomListTest {
 
     @Test
     public void addCityTest() {
+        // Failed assert
         list = MockCityList();
         int listSize = list.getCount();
         list.addCity(new City("Estevan", "SK"));
