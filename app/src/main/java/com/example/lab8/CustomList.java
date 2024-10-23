@@ -46,7 +46,7 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public int getCount(){
-//        return cities.size();
+        return cities.size();
     }
 
     public void addCity(City city){
@@ -58,6 +58,6 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public void deleteCity(City city) {
-        cities.remove(city)
+        cities.remove(city);
     }
 }
