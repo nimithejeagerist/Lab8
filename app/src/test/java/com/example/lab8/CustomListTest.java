@@ -29,7 +29,7 @@ public class CustomListTest {
     }
 
     @Test
-    void testHasCity() {
+    void hasCityTest() {
         list = MockCityList();
 
         City city = new City("Estevan", "SK");
